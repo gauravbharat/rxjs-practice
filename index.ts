@@ -3,6 +3,7 @@ import './style.css';
 import { of, map } from 'rxjs';
 import { BasicObservableTests } from './basics';
 import { SubscriptionLifecycle } from './subscription-lifecycle';
+import { ColdObservable, HotObservable } from './cold-vs-hot-observables';
 // import { basicStringObservable$ } from './basics';
 
 of('World')
@@ -14,5 +15,7 @@ of('World')
 // const basicTest = new BasicObservableTests();
 // basicTest.subscribeBasicObs();
 
-const lifecycleTest = new SubscriptionLifecycle();
-lifecycleTest.subscribe();
+// const lifecycleTest = new SubscriptionLifecycle();
+// lifecycleTest.subscribe();
+// new ColdObservable().execute();
+new HotObservable().execute();
