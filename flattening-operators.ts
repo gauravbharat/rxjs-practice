@@ -10,7 +10,7 @@ import {
   map,
   from,
 } from 'rxjs';
-
+ 
 export default class FlatteningOperators {
   private source$ = new Observable((subscriber) => {
     setTimeout(() => subscriber.next('A'), 1000);
