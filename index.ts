@@ -21,12 +21,11 @@ import FlatteningOperators from './flattening-operators';
 import { TimerObservables } from './timers';
 // import { basicStringObservable$ } from './basics';
 
-
 // timer test
-const timerTest = new TimerObservables();
-timerTest.startTimer(new Date('2023-09-25T16:15:50.21Z'));
+// const timerTest = new TimerObservables();
+// timerTest.startTimer(new Date('2023-09-25T16:15:50.21Z'));
 
-timerTest.unsubscribeObs()
+// timerTest.unsubscribeObs()
 
 // of('World')
 //   .pipe(map((name) => `Hello, ${name}!`))
